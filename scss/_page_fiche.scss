@@ -1,0 +1,82 @@
+// PAGE FICHE
+
+.pageFiche{
+  margin-bottom: 50px;
+}
+.pageFiche:after{
+  clear: both;
+  content: "";
+  display: block;
+}
+.pageFiche h2{
+  color: black;
+  font-size: 1.9em;
+  text-transform: uppercase;
+  text-align: center;
+}
+.infos{
+  width: 40%;
+  float: right;
+  margin-top: 40px;
+  margin-right: 80px;
+}
+.infos ul{
+  margin-top: 30px;
+  border: none;
+  border-top: 3px solid $blue_middle;
+  border-bottom: 3px solid $blue_middle;
+  padding-top: 45px;
+  padding-bottom: 25px;
+}
+.infos li{
+  list-style-type: none;
+  padding-top: 5px;
+}
+.infos ul p{
+  line-height: 1.4;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+.infos strong{
+  color: $blue_middle;
+  text-transform: uppercase;
+}
+.infos a p{
+  text-align: center;
+  background-color: $blue_middle;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;
+  margin-top: 40px;
+}
+.infos a p:hover{
+  background-color: $blue_dark;
+}
+.infos a{
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.return p{
+  background-color: $blue_dark;
+}
+.image{
+  float: left;
+  width: 50%;
+}
+.image img{
+  width: 75%;
+  float: left;
+  box-shadow: 0 5px 15px -5px;
+}
+.imageProjet{
+  margin-top: 80px;
+  margin-left: 80px;
+}
+.imageProjet:after{
+  clear: both;
+  content: "";
+  display: block;
+}
+.empty{
+  text-decoration: line-through;
+}

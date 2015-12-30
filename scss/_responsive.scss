@@ -1,0 +1,316 @@
+@media screen and (min-width: 2500px) {
+  .projet img {
+      display: block;
+      width: 100%;
+      height: auto;
+  }
+}
+@media screen and (max-width: 1280px) {
+
+  .work, .contact, .about, .personna, .virgule, .socialDiv {
+      display: inline-block;
+      float: left;
+      height: 250px;
+      width: 50%;
+  }
+  .work p, .contact p, .about p {
+      padding-top: 145px;
+  }
+  .social ul {
+    display: block;
+    margin-left: 10px;
+  }
+  .social p {
+      padding-left: 100px;
+  }
+  .pageAbout {
+    margin-bottom: 610px;
+  }
+  .pageWork div {
+    height: 220px;
+  }
+  .infos {
+    float: right;
+    width: 40%;
+  }
+  .image img {
+      width: 95%;
+      float: left;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .work, .contact, .about, .personna, .virgule, .socialDiv {
+      display: inline-block;
+      float: left;
+      height: 250px;
+      width: 50%;
+  }
+  .work p, .contact p, .about p {
+      padding-top: 145px;
+  }
+  .social ul {
+    display: block;
+    margin-left: 10px;
+  }
+  .social p {
+      padding-left: 100px;
+  }
+  .pageAbout {
+    margin-bottom: 610px;
+  }
+  .pageWork div {
+    height: 160px;
+  }
+  .infos {
+    float: none;
+    margin-right: 80px;
+    margin-top: 40px;
+    width: 100%;
+  }
+  .image img {
+      width: 200%;
+      float: none;
+  }
+  .pageWork{
+    height: 160px;
+  }
+
+  .projet h2 {
+      font-size: 1em;
+      top: -65px;
+  }
+}
+@media screen and (max-width: 800px) {
+
+  .social ul {
+    display: block;
+    margin-left: 0px;
+  }
+  .social p{
+    padding-left: 85px;
+  }
+  .skillsWeb, .skills2D{
+    float: none;
+    width: 100%;
+  }
+  .pageAbout {
+    margin-bottom: 665px;
+  }
+  .pageWork div {
+    height: 220px;
+  }
+  .projet{
+    width: 100%;
+  }
+
+  .formContact {
+    display: block;
+    margin: 0 auto;
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 705px) {
+
+
+  .social ul {
+    display: block;
+    margin-left: -30px;
+  }
+  .pageAbout {
+    margin-bottom: 690px;
+  }
+  .social p{
+    margin-left: -20px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .work, .contact, .about, .personna, .virgule, .socialDiv {
+      width: 100%;
+  }
+  .pageAbout {
+    margin-bottom: 750px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  header{
+    background-color: white;
+  }
+  .pageWork div{
+    display: inline-block;
+    height: 125px;
+    width: 100%;
+  }
+  .work p, .contact p, .about p {
+      padding-top: 150px;
+  }
+  .social ul {
+    display: block;
+    margin-left: -30px;
+  }
+  .social p {
+      margin-left: -30px;
+  }
+  .pageAbout {
+    margin-bottom: 800px;
+  }
+  .aboutDesc p {
+    width: 100%;
+  }
+  .curiculum p {
+    padding-top: 130px;
+  }
+  .competences {
+    width: 100%;
+  }
+  .image img {
+    float: none;
+    width: 200%;
+  }
+  .imageProjet {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .banTitre span {
+      font-size: 1.2em;
+  }
+  .banLogoMin, .banTitre {
+      display: block;
+      width: 100%;
+      margin-bottom: 0px;
+  }
+  .banTitre {
+    display: inline-block;
+    height: 75%;
+    width: 100%;
+  }
+  .banLogoMin {
+    height: 50%;
+  }
+  .skills2D, .skillsWeb{
+    display: block;
+  }
+  .skills2D img, .skillsWeb img{
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+  }
+  .virgule{
+    background-image: none;
+    height: 0px;
+    width: 0%;
+    display: none;
+  }
+  .pageFiche h2{
+    font-size: 1.2em;
+  }
+  .formContact {
+    display: block;
+    margin: 0 auto;
+    width: 92%;
+  }
+}
+@media screen and (max-width: 360px) {
+
+  header{
+    background-color: white;
+    display: block;
+  }
+  body{
+    margin: 0px;
+  }
+  .work, .contact, .about{
+    display: inline-block;
+    height: 171px;
+    width: 100%;
+    // float: left;
+  }
+  .social ul {
+    display: block;
+    margin-left: -20px;
+    width: 200%;
+  }
+  .social p {
+      font-size: 1.2em;
+      margin-left: -90px;
+      text-align: center;
+      width: 100%;
+      display: block;
+  }
+  .personna{
+    display: inline-block;
+    width: 100%;
+    height: 177px;
+  }
+  #trombino {
+      display: block;
+      height: 151px;
+      margin: 10px auto 0;
+      max-width: 100%;
+      position: relative;
+      width: 200px;
+  }
+  .work p, .contact p, .about p{
+    text-align: center;
+    padding-top: 110px;
+    text-transform: uppercase;
+    // color: white;
+  }
+  .banLogo a img{
+    display: block;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+  .banTitre span {
+      font-size: 1.2em;
+  }
+  .virgule{
+    background-image: none;
+    height: 0px;
+    width: 0%;
+    display: none;
+  }
+  .projet h2{
+    top: -90px;
+  }
+  footer{
+    margin-bottom: 0;
+  }
+  .pageFiche h2{
+    font-size: 1em;
+  }
+  .infos ul{
+    border: none;
+    padding-bottom: 0;
+  }
+  .infos ul p{
+    padding-right: 35px;
+  }
+  .image img{
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .pageWork div{
+    height: 125px;
+  }
+  .imagePerso p{
+    margin-left:-20px;
+  }
+  .pageAbout {
+    margin-bottom: 900px;
+  }
+  .social ul {
+    display: block;
+    width: 200%;
+    margin-left: -35px;
+  }
+  .formContact {
+      display: block;
+      margin: 0 auto;
+      width: 100%;
+  }
+}

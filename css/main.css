@@ -1,0 +1,863 @@
+body {
+  background-color: white;
+  font-family: "Roboto Condensed", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 20px;
+  margin: 30px; }
+
+.banLogo h1, .virgule p {
+  text-indent: -5000px; }
+
+header {
+  background-color: #dbdbd9;
+  height: 250px;
+  display: block;
+  width: 100%; }
+
+.banLogo a img {
+  display: block;
+  margin: 0 auto;
+  padding-top: 50px; }
+
+.pageHome .front, .pageAbout {
+  display: inline-block;
+  height: 250px;
+  float: left;
+  width: 100%; }
+
+.social {
+  display: block;
+  height: 60px;
+  width: 380px;
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto; }
+
+.work, .contact, .about, .personna, .virgule, .socialDiv {
+  display: inline-block;
+  height: 250px;
+  float: left;
+  width: 50%; }
+
+.personna {
+  background-color: #456286; }
+
+#trombino {
+  position: relative;
+  margin: 0 auto;
+  display: block;
+  max-width: 100%;
+  width: 200px;
+  height: 151px;
+  margin-top: 50px; }
+
+#trombino span img {
+  position: absolute; }
+
+.work {
+  background-color: #94bdea;
+  background-image: url(../img/souris4.png);
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.contact {
+  background-color: #1c2f44;
+  background-image: url(../img/email.png);
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.about {
+  background-color: #456286;
+  background-image: url(../img/cloudTest.png);
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.work p, .contact p, .about p {
+  text-align: center;
+  padding-top: 145px;
+  text-transform: uppercase; }
+
+.work, .contact, .about {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  z-index: 1;
+  position: relative;
+  font-weight: bold; }
+
+.work:hover, .contact:hover, .about:hover {
+  color: white; }
+
+.work:before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  opacity: 0.6;
+  bottom: 0;
+  left: 0;
+  background-color: #94bdea;
+  width: 100%;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.6s ease-in-out 0s; }
+
+.contact:before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  opacity: 0.6;
+  bottom: 0;
+  left: 0;
+  background-color: #1c2f44;
+  width: 100%;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.6s ease-in-out 0s; }
+
+.about:before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  opacity: 0.6;
+  bottom: 0;
+  left: 0;
+  background-color: #456286;
+  width: 100%;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.6s ease-in-out 0s; }
+
+.work:hover:before, .contact:hover:before, .about:hover:before {
+  visibility: visible;
+  transform: scaleX(1); }
+
+section:after {
+  clear: both;
+  content: "";
+  display: block; }
+
+.virgule {
+  display: block;
+  background-image: url("../img/virgule5.png");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.social p {
+  padding-left: 90px;
+  padding-top: 20px;
+  color: #456286;
+  text-transform: uppercase;
+  font-size: 1.2em; }
+
+.social li {
+  list-style-type: none;
+  float: left;
+  margin-left: 10px;
+  margin-top: 50px; }
+
+.social ul {
+  display: block; }
+
+.social ul:after {
+  clear: both;
+  content: "";
+  display: block; }
+
+.facebook a {
+  display: block;
+  width: 50px;
+  height: 54px;
+  background-image: url("../img/social5.png");
+  background-position: 0 0;
+  text-decoration: none;
+  text-indent: -5000px; }
+
+.facebook a:hover {
+  background-position: 0 54px; }
+
+.twitter a {
+  display: block;
+  width: 70px;
+  height: 60px;
+  background-image: url("../img/social5.png");
+  background-position: -40px 0;
+  text-decoration: none;
+  text-indent: -5000px; }
+
+.twitter a:hover {
+  background-position: -40px 54px; }
+
+.github a {
+  display: block;
+  width: 70px;
+  height: 60px;
+  background-image: url("../img/social5.png");
+  background-position: -110px 0;
+  text-decoration: none;
+  text-indent: -5000px; }
+
+.github a:hover {
+  background-position: -110px 54px; }
+
+.linkedin a {
+  display: block;
+  width: 70px;
+  height: 56px;
+  background-image: url("../img/social5.png");
+  background-position: 70px 0;
+  text-decoration: none;
+  text-indent: -5000px; }
+
+.linkedin a:hover {
+  background-position: 70px 54px; }
+
+.pageContact {
+  background-color: #dbdbd9;
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 50px; }
+
+.entete img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 75px;
+  transition: 0.2s ease-out; }
+
+.entete img:hover {
+  transform: scale(1.09); }
+
+.entete h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #1c2f44;
+  font-weight: bold;
+  margin-top: 50px;
+  font-size: 1.2em;
+  font-family: "Ubuntu", sans-serif; }
+
+.entete h2 {
+  text-align: center;
+  font-size: 1em;
+  color: #868080;
+  font-weight: lighter;
+  font-family: "Roboto Condensed", sans-serif;
+  margin-bottom: 50px; }
+
+.formulaire {
+  display: block;
+  width: 100%; }
+
+.formContact {
+  display: block;
+  width: 35%;
+  margin: 0 auto; }
+
+.form-group {
+  text-align: center;
+  display: block;
+  margin-top: 35px; }
+
+.form-group input[type='text'] {
+  width: 80%;
+  background-color: #dbdbd9;
+  border: none;
+  border-bottom: 2px solid #1c2f44;
+  margin-left: 25px;
+  padding-bottom: 15px;
+  color: #1c2f44;
+  font-size: 0.7em; }
+
+.form-group textarea {
+  width: 91%;
+  background-color: #dbdbd9;
+  border: none;
+  border-bottom: 2px solid #1c2f44;
+  height: 17px;
+  padding-bottom: 15px;
+  margin-top: 15px;
+  color: #1c2f44;
+  font-size: 0.7em;
+  font-family: "Roboto Condensed", sans-serif; }
+
+.form-group label {
+  color: #868080;
+  font-weight: 400;
+  font-size: 0.7em; }
+
+.btnSubmit {
+  width: 92%;
+  padding: 20px;
+  background-color: #dbdbd9;
+  color: #1c2f44;
+  text-transform: uppercase;
+  border: 2px solid #1c2f44;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-bottom: 25px; }
+
+.btnSubmit:hover {
+  background-color: #1c2f44;
+  color: white; }
+
+.alert-success {
+  font-size: 0.9em;
+  color: #2da94a;
+  text-align: center; }
+
+.alert-danger {
+  font-size: 0.7em;
+  color: #d5071b;
+  text-align: center; }
+
+.pageSkills {
+  margin-bottom: 150px; }
+
+.banLogoMin, .banTitre {
+  width: 50%;
+  display: inline-block;
+  height: 100%; }
+
+.banLogoMin img {
+  display: block;
+  margin: 0 auto;
+  padding-top: 70px; }
+
+.banTitre {
+  float: right; }
+
+.banTitre span {
+  text-align: center;
+  color: #456286;
+  text-transform: uppercase;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.4em;
+  border: none;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  padding: 15px; }
+
+.banTitre h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 0.9em;
+  margin-top: 120px; }
+
+.skillsWeb {
+  background-color: white; }
+
+.skills2D {
+  background-color: white; }
+
+.skillsWeb, .skills2D {
+  display: inline-block;
+  width: 50%;
+  float: left;
+  height: 100%; }
+
+.skillsWeb p, .skills2D p {
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-decoration: overline;
+  letter-spacing: 0.5; }
+
+.skillsWeb a, .skills2D a {
+  text-decoration: none; }
+
+.skillsWeb img, .skills2D img {
+  margin: 0 auto;
+  display: block;
+  transition: 0.4s ease-out; }
+
+.skillsWeb img:hover, .skills2D img:hover {
+  transform: scale(0.95); }
+
+.projet {
+  display: block;
+  float: left;
+  position: relative;
+  width: 50%;
+  overflow: hidden;
+  display: inline-block;
+  height: 250px;
+  float: left;
+  width: 50%; }
+
+.projet-lien {
+  bottom: 0;
+  display: block;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 500; }
+
+.projet img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: all 1.5 ease 0s; }
+
+.projet h2 {
+  background-color: #456286;
+  bottom: -50px;
+  color: white;
+  display: block;
+  font-size: 1.5em;
+  left: 0;
+  opacity: 0;
+  padding-top: 125px;
+  position: absolute;
+  right: 100%;
+  text-align: center;
+  top: -50px;
+  transition: all 0.4s ease-in-out;
+  font-family: "Roboto Condensed", sans-serif; }
+
+.projet:hover h2 {
+  opacity: 0.9;
+  right: 0%;
+  z-index: 0; }
+
+footer {
+  display: block;
+  margin-bottom: 40px; }
+
+footer:after {
+  clear: both;
+  content: "";
+  display: block; }
+
+.footer {
+  display: inline-block;
+  height: 50px;
+  float: left;
+  width: 100%;
+  background-color: #1c2f44; }
+
+.footer p {
+  color: white;
+  font-size: 0.8em;
+  text-align: center; }
+
+.pageFiche {
+  margin-bottom: 50px; }
+
+.pageFiche:after {
+  clear: both;
+  content: "";
+  display: block; }
+
+.pageFiche h2 {
+  color: black;
+  font-size: 1.9em;
+  text-transform: uppercase;
+  text-align: center; }
+
+.infos {
+  width: 40%;
+  float: right;
+  margin-top: 40px;
+  margin-right: 80px; }
+
+.infos ul {
+  margin-top: 30px;
+  border: none;
+  border-top: 3px solid #456286;
+  border-bottom: 3px solid #456286;
+  padding-top: 45px;
+  padding-bottom: 25px; }
+
+.infos li {
+  list-style-type: none;
+  padding-top: 5px; }
+
+.infos ul p {
+  line-height: 1.4;
+  margin-bottom: 30px;
+  text-align: justify; }
+
+.infos strong {
+  color: #456286;
+  text-transform: uppercase; }
+
+.infos a p {
+  text-align: center;
+  background-color: #456286;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;
+  margin-top: 40px; }
+
+.infos a p:hover {
+  background-color: #1c2f44; }
+
+.infos a {
+  text-decoration: none;
+  text-transform: uppercase; }
+
+.return p {
+  background-color: #1c2f44; }
+
+.image {
+  float: left;
+  width: 50%; }
+
+.image img {
+  width: 75%;
+  float: left;
+  box-shadow: 0 5px 15px -5px; }
+
+.imageProjet {
+  margin-top: 80px;
+  margin-left: 80px; }
+
+.imageProjet:after {
+  clear: both;
+  content: "";
+  display: block; }
+
+.empty {
+  text-decoration: line-through; }
+
+.pageAbout {
+  margin-bottom: 530px; }
+
+.imagePerso p {
+  text-align: center;
+  margin-top: 35px; }
+
+h2 {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.8em; }
+
+.aboutDesc {
+  margin-bottom: 50px; }
+
+.aboutDesc p {
+  text-align: justify;
+  width: 55%;
+  margin: 0 auto;
+  line-height: 1.5; }
+
+.competences {
+  width: 55%;
+  margin: 0 auto; }
+
+.all p {
+  font-size: 0.76em;
+  float: left;
+  text-align: center;
+  margin: 0 auto;
+  font-family: "Ubuntu", sans-serif;
+  padding-left: 5px; }
+
+.curiculum {
+  width: 55%;
+  margin: 0 auto; }
+
+.curiculum p {
+  text-align: center;
+  padding-top: 75px; }
+
+.curiculum a {
+  color: #1c2f44;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-decoration: underline; }
+
+.curiculum a:hover {
+  text-decoration: none; }
+
+@media screen and (min-width: 2500px) {
+  .projet img {
+    display: block;
+    width: 100%;
+    height: auto; } }
+@media screen and (max-width: 1280px) {
+  .work, .contact, .about, .personna, .virgule, .socialDiv {
+    display: inline-block;
+    float: left;
+    height: 250px;
+    width: 50%; }
+
+  .work p, .contact p, .about p {
+    padding-top: 145px; }
+
+  .social ul {
+    display: block;
+    margin-left: 10px; }
+
+  .social p {
+    padding-left: 100px; }
+
+  .pageAbout {
+    margin-bottom: 610px; }
+
+  .pageWork div {
+    height: 220px; }
+
+  .infos {
+    float: right;
+    width: 40%; }
+
+  .image img {
+    width: 95%;
+    float: left; } }
+@media screen and (max-width: 980px) {
+  .work, .contact, .about, .personna, .virgule, .socialDiv {
+    display: inline-block;
+    float: left;
+    height: 250px;
+    width: 50%; }
+
+  .work p, .contact p, .about p {
+    padding-top: 145px; }
+
+  .social ul {
+    display: block;
+    margin-left: 10px; }
+
+  .social p {
+    padding-left: 100px; }
+
+  .pageAbout {
+    margin-bottom: 610px; }
+
+  .pageWork div {
+    height: 160px; }
+
+  .infos {
+    float: none;
+    margin-right: 80px;
+    margin-top: 40px;
+    width: 100%; }
+
+  .image img {
+    width: 200%;
+    float: none; }
+
+  .pageWork {
+    height: 160px; }
+
+  .projet h2 {
+    font-size: 1em;
+    top: -65px; } }
+@media screen and (max-width: 800px) {
+  .social ul {
+    display: block;
+    margin-left: 0px; }
+
+  .social p {
+    padding-left: 85px; }
+
+  .skillsWeb, .skills2D {
+    float: none;
+    width: 100%; }
+
+  .pageAbout {
+    margin-bottom: 665px; }
+
+  .pageWork div {
+    height: 220px; }
+
+  .projet {
+    width: 100%; }
+
+  .formContact {
+    display: block;
+    margin: 0 auto;
+    width: 65%; } }
+@media screen and (max-width: 705px) {
+  .social ul {
+    display: block;
+    margin-left: -30px; }
+
+  .pageAbout {
+    margin-bottom: 690px; }
+
+  .social p {
+    margin-left: -20px; } }
+@media screen and (max-width: 680px) {
+  .work, .contact, .about, .personna, .virgule, .socialDiv {
+    width: 100%; }
+
+  .pageAbout {
+    margin-bottom: 750px; } }
+@media screen and (max-width: 400px) {
+  header {
+    background-color: white; }
+
+  .pageWork div {
+    display: inline-block;
+    height: 125px;
+    width: 100%; }
+
+  .work p, .contact p, .about p {
+    padding-top: 150px; }
+
+  .social ul {
+    display: block;
+    margin-left: -30px; }
+
+  .social p {
+    margin-left: -30px; }
+
+  .pageAbout {
+    margin-bottom: 800px; }
+
+  .aboutDesc p {
+    width: 100%; }
+
+  .curiculum p {
+    padding-top: 130px; }
+
+  .competences {
+    width: 100%; }
+
+  .image img {
+    float: none;
+    width: 200%; }
+
+  .imageProjet {
+    margin-left: 0px;
+    margin-top: 0px; }
+
+  .banTitre span {
+    font-size: 1.2em; }
+
+  .banLogoMin, .banTitre {
+    display: block;
+    width: 100%;
+    margin-bottom: 0px; }
+
+  .banTitre {
+    display: inline-block;
+    height: 75%;
+    width: 100%; }
+
+  .banLogoMin {
+    height: 50%; }
+
+  .skills2D, .skillsWeb {
+    display: block; }
+
+  .skills2D img, .skillsWeb img {
+    width: 100%;
+    height: 100%;
+    margin-top: 100px; }
+
+  .virgule {
+    background-image: none;
+    height: 0px;
+    width: 0%;
+    display: none; }
+
+  .pageFiche h2 {
+    font-size: 1.2em; }
+
+  .formContact {
+    display: block;
+    margin: 0 auto;
+    width: 92%; } }
+@media screen and (max-width: 360px) {
+  header {
+    background-color: white;
+    display: block; }
+
+  body {
+    margin: 0px; }
+
+  .work, .contact, .about {
+    display: inline-block;
+    height: 171px;
+    width: 100%; }
+
+  .social ul {
+    display: block;
+    margin-left: -20px;
+    width: 200%; }
+
+  .social p {
+    font-size: 1.2em;
+    margin-left: -90px;
+    text-align: center;
+    width: 100%;
+    display: block; }
+
+  .personna {
+    display: inline-block;
+    width: 100%;
+    height: 177px; }
+
+  #trombino {
+    display: block;
+    height: 151px;
+    margin: 10px auto 0;
+    max-width: 100%;
+    position: relative;
+    width: 200px; }
+
+  .work p, .contact p, .about p {
+    text-align: center;
+    padding-top: 110px;
+    text-transform: uppercase; }
+
+  .banLogo a img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 50px; }
+
+  .banTitre span {
+    font-size: 1.2em; }
+
+  .virgule {
+    background-image: none;
+    height: 0px;
+    width: 0%;
+    display: none; }
+
+  .projet h2 {
+    top: -90px; }
+
+  footer {
+    margin-bottom: 0; }
+
+  .pageFiche h2 {
+    font-size: 1em; }
+
+  .infos ul {
+    border: none;
+    padding-bottom: 0; }
+
+  .infos ul p {
+    padding-right: 35px; }
+
+  .image img {
+    margin-top: 50px; } }
+@media screen and (max-width: 320px) {
+  .pageWork div {
+    height: 125px; }
+
+  .imagePerso p {
+    margin-left: -20px; }
+
+  .pageAbout {
+    margin-bottom: 900px; }
+
+  .social ul {
+    display: block;
+    width: 200%;
+    margin-left: -35px; }
+
+  .formContact {
+    display: block;
+    margin: 0 auto;
+    width: 100%; } }
+
+/*# sourceMappingURL=main.css.map */

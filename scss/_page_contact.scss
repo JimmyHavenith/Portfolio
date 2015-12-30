@@ -1,0 +1,101 @@
+// PAGE CONTACT
+
+.pageContact{
+  background-color: $color_banniere;
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 50px;
+}
+.entete img{
+  display: block;
+  margin: 0 auto;
+  margin-top: 75px;
+  transition: 0.2s ease-out;
+}
+.entete img:hover{
+  transform: scale(1.09 );
+}
+.entete h1{
+  text-align: center;
+  text-transform: uppercase;
+  color:  $blue_dark;
+  font-weight: bold;
+  margin-top: 50px;
+  font-size: 1.2em;
+  font-family: $font_ubuntu, sans-serif;
+}
+.entete h2{
+  text-align: center;
+  font-size: 1em;
+  color: $color_grey;
+  font-weight: lighter;
+  font-family: $font_body, sans-serif;
+  margin-bottom: 50px;
+}
+.formulaire{
+  display: block;
+  width: 100%;
+}
+.formContact{
+  display: block;
+  width: 35%;
+  margin: 0 auto;
+}
+.form-group{
+  text-align: center;
+  display: block;
+  margin-top: 35px;
+}
+.form-group input[type='text']{
+  width: 80%;
+  background-color: $color_banniere;
+  border: none;
+  border-bottom: 2px solid $blue_dark;
+  margin-left: 25px;
+  padding-bottom: 15px;
+  color: $blue_dark;
+  font-size: 0.7em;
+}
+.form-group textarea{
+  width: 91%;
+  background-color: $color_banniere;
+  border: none;
+  border-bottom: 2px solid $blue_dark;
+  height: 17px;
+  padding-bottom: 15px;
+  margin-top: 15px;
+  color: $blue_dark;
+  font-size: 0.7em;
+  font-family: $font_body, sans-serif;
+}
+.form-group label{
+  color: $color_grey;
+  font-weight: 400;
+  font-size: 0.7em;
+}
+.btnSubmit{
+  width: 92%;
+  padding: 20px;
+  background-color: $color_banniere;
+  color: $blue_dark;
+  text-transform: uppercase;
+  border: 2px solid $blue_dark;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+.btnSubmit:hover{
+  background-color: $blue_dark;
+  color: white;
+}
+.alert-success{
+  font-size: 0.9em;
+  color: hsl(134, 58%, 42%);
+  text-align: center;
+}
+.alert-danger{
+  font-size: 0.7em;
+  color: hsl(354, 94%, 43%);
+  text-align: center;
+}

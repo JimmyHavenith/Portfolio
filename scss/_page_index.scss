@@ -1,0 +1,218 @@
+// PAGE INDEX
+
+body{
+  background-color: white;
+  font-family: $font_body, sans-serif;
+  -webkit-font-smoothing : antialiased;
+  font-size: 20px;
+  margin: 30px;
+}
+.banLogo h1, .virgule p{
+  text-indent: -5000px;
+}
+header{
+  background-color: $color_banniere;
+  height: 250px;
+  display: block;
+  width: 100%;
+}
+.banLogo a img{
+  display: block;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.pageHome .front, .pageAbout{
+  display: inline-block;
+  height: 250px;
+  float: left;
+  width: 100%;
+}
+.social{
+  display: block;
+  height: 60px;
+  width: 380px;
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.work, .contact, .about, .personna, .virgule, .socialDiv{
+  display: inline-block;
+  height: 250px;
+  float: left;
+  width: 50%;
+}
+.personna{
+  background-color: $blue_middle;
+}
+#trombino {
+  position: relative;
+  margin: 0 auto;
+  display: block;
+  max-width: 100%;
+  width: 200px;
+  height: 151px;
+  margin-top: 50px;
+}
+
+#trombino span img {
+  position: absolute;
+}
+
+.work {
+  background-color: $blue_clear;
+  background-image: url(../img/souris4.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.contact {
+  background-color: $blue_dark;
+  background-image: url(../img/email.png);
+  background-repeat: no-repeat;
+  background-position: center; }
+.about {
+  background-color: $blue_middle;
+  background-image: url(../img/cloudTest.png);
+  background-repeat: no-repeat;
+  background-position: center; }
+.work p, .contact p, .about p{
+  text-align: center;
+  padding-top: 145px;
+  text-transform: uppercase;
+  // color: white;
+}
+.work, .contact, .about{
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  z-index: 1;
+  position: relative;
+  font-weight: bold;
+}
+.work:hover, .contact:hover, .about:hover {
+  color: white;
+}
+.work:before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  opacity: 0.6;
+  bottom: 0;
+  left: 0;
+  background-color: $blue_clear;
+  width: 100%;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.6s ease-in-out 0s;
+}
+.contact:before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  opacity: 0.6;
+  bottom: 0;
+  left: 0;
+  background-color: $blue_dark;
+  width: 100%;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.6s ease-in-out 0s;
+}
+.about:before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  opacity: 0.6;
+  bottom: 0;
+  left: 0;
+  background-color: $blue_middle;
+  width: 100%;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.6s ease-in-out 0s;
+}
+.work:hover:before, .contact:hover:before, .about:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+section:after{
+  clear: both;
+  content:"";
+  display: block;
+}
+.virgule{
+  display: block;
+  background-image: url('../img/virgule5.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.social p{
+  padding-left: 90px;
+  padding-top: 20px;
+  color: $blue_middle;
+  text-transform: uppercase;
+  font-size: 1.2em;
+}
+.social li{
+  list-style-type: none;
+  float: left;
+  margin-left: 10px;
+  margin-top: 50px;
+}
+.social ul{
+  display: block;
+}
+.social ul:after{
+  clear: both;
+  content:"";
+  display: block;
+}
+.facebook a{
+  display: block;
+  width: 50px;
+  height: 54px;
+  background-image: url('../img/social5.png');
+  background-position: 0 0;
+  text-decoration: none;
+  text-indent: -5000px;
+}
+.facebook a:hover{
+  background-position: 0 54px;
+}
+.twitter a{
+  display: block;
+  width: 70px;
+  height: 60px;
+  background-image: url('../img/social5.png');
+  background-position: -40px 0;
+  text-decoration: none;
+  text-indent: -5000px;
+}
+.twitter a:hover{
+  background-position: -40px 54px;
+}
+.github a{
+  display: block;
+  width: 70px;
+  height: 60px;
+  background-image: url('../img/social5.png');
+  background-position: -110px 0;
+  text-decoration: none;
+  text-indent: -5000px;
+}
+.github a:hover{
+  background-position: -110px 54px;
+}
+.linkedin a{
+  display: block;
+  width: 70px;
+  height: 56px;
+  background-image: url('../img/social5.png');
+  background-position: 70px 0;
+  text-decoration: none;
+  text-indent: -5000px;
+}
+.linkedin a:hover{
+  background-position: 70px 54px;
+}
