@@ -2,7 +2,6 @@
   .projet img {
       display: block;
       width: 100%;
-      height: auto;
   }
 }
 @media screen and (max-width: 1280px) {
@@ -25,9 +24,6 @@
   }
   .pageAbout {
     margin-bottom: 610px;
-  }
-  .pageWork div {
-    height: 220px;
   }
   .infos {
     float: right;
@@ -59,9 +55,6 @@
   .pageAbout {
     margin-bottom: 610px;
   }
-  .pageWork div {
-    height: 160px;
-  }
   .infos {
     float: none;
     margin-right: 80px;
@@ -75,7 +68,6 @@
   .pageWork{
     height: 160px;
   }
-
   .projet h2 {
       font-size: 1em;
       top: -65px;
@@ -96,9 +88,6 @@
   }
   .pageAbout {
     margin-bottom: 665px;
-  }
-  .pageWork div {
-    height: 220px;
   }
   .projet{
     width: 100%;
@@ -140,7 +129,6 @@
   }
   .pageWork div{
     display: inline-block;
-    height: 125px;
     width: 100%;
   }
   .work p, .contact p, .about p {
@@ -213,19 +201,17 @@
   }
 }
 @media screen and (max-width: 360px) {
-
+  body{
+    margin: 0 auto;
+  }
   header{
     background-color: white;
     display: block;
-  }
-  body{
-    margin: 0px;
   }
   .work, .contact, .about{
     display: inline-block;
     height: 171px;
     width: 100%;
-    // float: left;
   }
   .social ul {
     display: block;
