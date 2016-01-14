@@ -437,13 +437,57 @@ section:after {
   transform: scale(0.95);
 }
 
-.projet {
-  display: block;
-  float: left;
-  position: relative;
-  width: 50%;
-  overflow: hidden;
+.controls {
+  margin: 0 auto;
+  text-align: center;
+  padding: 2%;
+  background: #dbdbd9;
+  color: #eee;
+}
+
+button {
   display: inline-block;
+  padding: 0.4em 0.8em;
+  background: #456286;
+  border: 0;
+  color: #ddd;
+  font-family: "Roboto Condensed";
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.active {
+  background: #1c2f44;
+}
+
+button:focus {
+  outline: 0 none;
+}
+
+button + label {
+  margin-left: 1em;
+}
+
+.container {
+  -webkit-backface-visibility: hidden;
+  margin-bottom: 0px;
+}
+
+.container .mix,
+.container .gap, .projet {
+  width: 50%;
+}
+
+.container .mix {
+  display: none;
+}
+
+.mix.category-1, .mix.category-2, .projet {
+  position: relative;
+  float: left;
+  overflow: hidden;
 }
 
 .projet-lien {
@@ -456,13 +500,13 @@ section:after {
   z-index: 500;
 }
 
-.projet img {
+.mix.category-1 img, .mix.category-2 img, .projet img {
   display: block;
   width: 100%;
   transition: all 1.5 ease 0s;
 }
 
-.projet h2 {
+.mix.category-1 h2, .mix.category-2 h2, .projet h2 {
   background-color: #456286;
   bottom: -50px;
   color: white;
@@ -479,7 +523,7 @@ section:after {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-.projet:hover h2 {
+.mix.category-1:hover h2, .mix.category-2:hover h2, .projet:hover h2 {
   opacity: 0.9;
   right: 0%;
   z-index: 0;
