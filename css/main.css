@@ -359,10 +359,6 @@ section:after {
   text-align: center;
 }
 
-.pageSkills {
-  margin-bottom: 150px;
-}
-
 .banLogoMin, .banTitre {
   width: 50%;
   display: inline-block;
@@ -397,44 +393,6 @@ section:after {
   font-family: "Ubuntu", sans-serif;
   font-size: 0.9em;
   margin-top: 120px;
-}
-
-.skillsWeb {
-  background-color: white;
-}
-
-.skills2D {
-  background-color: white;
-}
-
-.skillsWeb, .skills2D {
-  display: inline-block;
-  width: 50%;
-  float: left;
-  height: 100%;
-}
-
-.skillsWeb p, .skills2D p {
-  text-align: center;
-  font-size: 1.4em;
-  font-weight: bold;
-  margin-bottom: 30px;
-  text-decoration: overline;
-  letter-spacing: 0.5;
-}
-
-.skillsWeb a, .skills2D a {
-  text-decoration: none;
-}
-
-.skillsWeb img, .skills2D img {
-  margin: 0 auto;
-  display: block;
-  transition: 0.4s ease-out;
-}
-
-.skillsWeb img:hover, .skills2D img:hover {
-  transform: scale(0.95);
 }
 
 .controls {
@@ -714,7 +672,7 @@ h2 {
 }
 
 @media screen and (min-width: 2500px) {
-  .projet img {
+  .mix.category-1 img, .mix.category-2 img, .projet img {
     display: block;
     width: 100%;
   }
@@ -780,10 +738,7 @@ h2 {
     width: 200%;
     float: none;
   }
-  .pageWork {
-    height: 160px;
-  }
-  .projet h2 {
+  .mix.category-1 h2, .mix.category-2 h2, .projet h2 {
     font-size: 1em;
     top: -65px;
   }
@@ -804,7 +759,10 @@ h2 {
   .pageAbout {
     margin-bottom: 665px;
   }
-  .projet {
+  .aboutDesc p, .competences {
+    width: 90%;
+  }
+  .mix.category-1, .mix.category-2, .projet {
     width: 100%;
   }
   .formContact {
@@ -841,7 +799,7 @@ h2 {
     background-color: white;
   }
   .pageWork div {
-    display: inline-block;
+    display: block;
     width: 100%;
   }
   .work p, .contact p, .about p {
@@ -869,6 +827,12 @@ h2 {
   .image img {
     float: none;
     width: 200%;
+  }
+  .controls {
+    background-color: white;
+  }
+  .mix.category-1 h2, .mix.category-2 h2, .projet h2 {
+    top: -90px;
   }
   .imageProjet {
     margin-left: 0px;
@@ -922,7 +886,7 @@ h2 {
     background-color: white;
     display: block;
   }
-  .work, .contact, .about {
+  .contact, .about {
     display: inline-block;
     height: 171px;
     width: 100%;
@@ -971,7 +935,7 @@ h2 {
     width: 0%;
     display: none;
   }
-  .projet h2 {
+  .mix.category-1 h2, .mix.category-2 h2, .projet h2 {
     top: -90px;
   }
   footer {
@@ -993,9 +957,6 @@ h2 {
 }
 
 @media screen and (max-width: 320px) {
-  .pageWork div {
-    height: 125px;
-  }
   .imagePerso p {
     margin-left: -20px;
   }
