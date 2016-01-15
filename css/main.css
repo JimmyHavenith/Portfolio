@@ -164,12 +164,17 @@ section:after {
   background-repeat: no-repeat;
 }
 
-.social p {
+.social p a {
   padding-left: 90px;
   padding-top: 20px;
   color: #456286;
   text-transform: uppercase;
   font-size: 1.2em;
+  text-decoration: none;
+}
+
+.social p a:hover {
+  text-decoration: underline;
 }
 
 .social li {

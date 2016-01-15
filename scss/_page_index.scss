@@ -147,12 +147,16 @@ section:after{
   background-repeat: no-repeat;
 }
 
-.social p{
+.social p a{
   padding-left: 90px;
   padding-top: 20px;
   color: $blue_middle;
   text-transform: uppercase;
   font-size: 1.2em;
+  text-decoration: none;
+}
+.social p a:hover{
+  text-decoration: underline;
 }
 .social li{
   list-style-type: none;
