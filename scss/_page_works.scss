@@ -58,7 +58,7 @@ button + label{
   width: 100%;
   transition: all 1.5 ease 0s;
 }
-.mix.category-1 h2, .mix.category-2 h2, .projet h2{
+.mix.category-1 h2, .mix.category-2 h2, .projet h2,{
   background-color: $blue_middle;
   bottom: -50px;
   color: white;
@@ -74,7 +74,7 @@ button + label{
   transition: all 0.4s ease-in-out;
   font-family: $font_body, sans-serif;
 }
-.mix.category-1:hover h2, .mix.category-2:hover h2, .projet:hover h2{
+.mix.category-1:hover h2, .mix.category-2:hover h2, .projet:hover h2, .mix.category-1 a:focus~h2, .mix.category-2 a:focus~h2, .projet a:focus~h2{
   opacity: 0.9;
   right: 0%;
   z-index: 0;

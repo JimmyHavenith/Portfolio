@@ -486,7 +486,7 @@ button + label {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-.mix.category-1:hover h2, .mix.category-2:hover h2, .projet:hover h2 {
+.mix.category-1:hover h2, .mix.category-2:hover h2, .projet:hover h2, .mix.category-1 a:focus ~ h2, .mix.category-2 a:focus ~ h2, .projet a:focus ~ h2 {
   opacity: 0.9;
   right: 0%;
   z-index: 0;
