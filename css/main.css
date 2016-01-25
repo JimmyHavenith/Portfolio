@@ -400,6 +400,10 @@ section:after {
   margin-top: 120px;
 }
 
+.script {
+  display: block;
+}
+
 .controls {
   margin: 0 auto;
   text-align: center;
